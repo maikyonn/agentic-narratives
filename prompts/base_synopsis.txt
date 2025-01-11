@@ -1,0 +1,7 @@
+    The movie title is {title} and the synopsis is: {synopsis}.  
+    Please identify ONE (and only one) sentence in the summary as one of the five turning points.  
+    You should have all and exactly five turning points in this order.  
+    Additionally, the sentences you pull need to be in this order; 
+    you should not choose a sentence for Climax which precedes the sentence you chose for Change of Plan, for example, because Climax comes after Change of Plan.
+    The format of the output should be a JSON object with the turning points as keys and the sentence numbers as values.  
+    Only output the JSON object. No need to explain why each is an appropriate selection.
