@@ -15,30 +15,33 @@ from unsloth import FastLanguageModel
 from trl import SFTTrainer
 from transformers import TrainingArguments
 from unsloth import is_bfloat16_supported
+import wandb  # Add wandb import
 
-max_seq_length = 8192 # Choose any! We auto support RoPE Scaling internally!
-dtype = torch.bfloat16 # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
-load_in_4bit = True # Use 4bit quantization to reduce memory usage. Can be False.
-cache_dir = "./model_cache-2"
-model_name = "unsloth/Llama-3.3-70B-Instruct"
-train_dataset_path = "./datasets/train.json"
-val_dataset_path = "./datasets/val.json"
-test_dataset_path = "./datasets/test.json"
-lora_save_name = "70b-4bit-lora-r128"
-lora_dim = 128
+# Constants
+MAX_SEQ_LENGTH = 8192
+CACHE_DIR = "./local/model_cache"
+MODEL_NAME = "unsloth/Llama-3.3-70B-Instruct"
+TRAIN_DATASET_PATH = "./datasets/train.json"
+VAL_DATASET_PATH = "./datasets/val.json"
+TEST_DATASET_PATH = "./datasets/test.json"
+LORA_DIR = "./local/lora_weights"  # New constant for LoRA directory
+LORA_SAVE_NAME = f"{LORA_DIR}/70b-4bit-lora-r128"  # Updated path
+LORA_DIM = 128
+BATCH_SIZE = 2
+GRAD_ACCUM = 4
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = model_name,
-    max_seq_length = max_seq_length,
-    dtype = dtype,
-    load_in_4bit = load_in_4bit,
+    model_name = MODEL_NAME,
+    max_seq_length = MAX_SEQ_LENGTH,
+    dtype = torch.bfloat16, # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
+    load_in_4bit = True, # Use 4bit quantization to reduce memory usage. Can be False.
     # token = "hf_...", # use one if using gated models like meta-llama/Llama-2-7b-hf
-    cache_dir=cache_dir,
+    cache_dir=CACHE_DIR,
 )
 
 model = FastLanguageModel.get_peft_model(
     model,
-    r = lora_dim, # Choose any number > 0 ! Suggested 8, 16, 32, 64, 128
+    r = LORA_DIM, # Choose any number > 0 ! Suggested 8, 16, 32, 64, 128
     target_modules = ["q_proj", "k_proj", "v_proj", "o_proj",
                       "gate_proj", "up_proj", "down_proj",],
     lora_alpha = 16,
@@ -96,51 +99,55 @@ def formatting_prompts_func(examples):
 
 pass
 
-train_dataset = Dataset.from_list([{"text": formatting_prompts_func(d)} for d in load_json_data(train_dataset_path)])
-val_dataset = Dataset.from_list([{"text": formatting_prompts_func(d)} for d in load_json_data(val_dataset_path)])
+train_dataset = Dataset.from_list([{"text": formatting_prompts_func(d)} for d in load_json_data(TRAIN_DATASET_PATH)])
+val_dataset = Dataset.from_list([{"text": formatting_prompts_func(d)} for d in load_json_data(VAL_DATASET_PATH)])
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a language model using unsloth')
-    parser.add_argument('--max_seq_length', type=int, default=8192,
-                        help='Maximum sequence length (default: 8192)')
     parser.add_argument('--load_in_4bit', type=bool, default=True,
                         help='Use 4bit quantization (default: True)')
-    parser.add_argument('--cache_dir', type=str, default='./model_cache-2',
-                        help='Cache directory for models')
-    parser.add_argument('--model_name', type=str, default='unsloth/Llama-3.3-70B-Instruct',
-                        help='Name of the model to use')
-    parser.add_argument('--train_dataset', type=str, default='./datasets/train.json',
-                        help='Path to training dataset')
-    parser.add_argument('--val_dataset', type=str, default='./datasets/val.json',
-                        help='Path to validation dataset')
-    parser.add_argument('--test_dataset', type=str, default='./datasets/test.json',
-                        help='Path to test dataset')
-    parser.add_argument('--lora_save_name', type=str, default='70b-4bit-lora-r128',
-                        help='Name for saving the LoRA weights')
-    parser.add_argument('--lora_dim', type=int, default=128,
-                        help='LoRA dimension (default: 128)')
-    parser.add_argument('--batch_size', type=int, default=2,
-                        help='Per device batch size (default: 2)')
-    parser.add_argument('--grad_accum', type=int, default=4,
-                        help='Gradient accumulation steps (default: 4)')
     parser.add_argument('--epochs', type=int, default=1,
                         help='Number of training epochs (default: 1)')
+    parser.add_argument('--resume_from_checkpoint', type=str, default=None,
+                        help='Path to checkpoint to resume training from (default: None)')
     return parser.parse_args()
 
 def main():
     args = parse_args()
     
-    # Set variables from command line arguments
-    max_seq_length = args.max_seq_length
+    # Set wandb directory
+    os.environ["WANDB_DIR"] = "./local/wandb"
+    os.makedirs("./local/wandb", exist_ok=True)
+    
+    # Initialize wandb
+    wandb.init(
+        project="narrative-finetune",
+        run_name=f"lora-r{LORA_DIM}-bs{BATCH_SIZE}",
+        config={
+            "model_name": MODEL_NAME,
+            "lora_dim": LORA_DIM,
+            "batch_size": BATCH_SIZE,
+            "grad_accum": GRAD_ACCUM,
+            "max_seq_length": MAX_SEQ_LENGTH,
+            "epochs": args.epochs,
+            "learning_rate": 2e-4,
+        }
+    )
+    
+    # Create LoRA weights directory if it doesn't exist
+    os.makedirs(LORA_DIR, exist_ok=True)
+    
+    # Set variables from command line arguments and constants
+    max_seq_length = MAX_SEQ_LENGTH
     dtype = torch.bfloat16  # Keeping this fixed as it's hardware dependent
     load_in_4bit = args.load_in_4bit
-    cache_dir = args.cache_dir
-    model_name = args.model_name
-    train_dataset_path = args.train_dataset
-    val_dataset_path = args.val_dataset
-    test_dataset_path = args.test_dataset
-    lora_save_name = args.lora_save_name
-    lora_dim = args.lora_dim
+    cache_dir = CACHE_DIR
+    model_name = MODEL_NAME
+    train_dataset_path = TRAIN_DATASET_PATH
+    val_dataset_path = VAL_DATASET_PATH
+    test_dataset_path = TEST_DATASET_PATH
+    lora_save_name = LORA_SAVE_NAME
+    lora_dim = LORA_DIM
 
     # Update training arguments with command line params
     trainer = SFTTrainer(
@@ -153,8 +160,8 @@ def main():
         dataset_num_proc = 2,
         packing = False,
         args = TrainingArguments(
-            per_device_train_batch_size = args.batch_size,
-            gradient_accumulation_steps = args.grad_accum,
+            per_device_train_batch_size = BATCH_SIZE,
+            gradient_accumulation_steps = GRAD_ACCUM,
             warmup_steps = 5,
             num_train_epochs = args.epochs,
             learning_rate = 2e-4,
@@ -167,15 +174,21 @@ def main():
             seed = 3407,
             output_dir = "outputs",
             logging_dir = "logs",
-            report_to = "none",
+            report_to = "wandb",
             eval_strategy = "steps",
             eval_steps = 10,
+            save_strategy = "steps",
+            save_steps = 10,
+            save_total_limit = 20,
         ),
     )
 
-    trainer_stats = trainer.train(resume_from_checkpoint = "outputs/checkpoint-41")
+    trainer_stats = trainer.train(resume_from_checkpoint=args.resume_from_checkpoint)
     model.save_pretrained(lora_save_name)
     tokenizer.save_pretrained(lora_save_name)
+    
+    # Close wandb run
+    wandb.finish()
 
 if __name__ == "__main__":
     main()

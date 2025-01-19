@@ -2,3 +2,4 @@ model_cache-2/
 outputs/
 70b-4bit-lora-r128-epoch1/
 logs/
+local/
