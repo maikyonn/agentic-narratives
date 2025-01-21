@@ -16,8 +16,7 @@ def split_by_ground_truth(narratives: List[Dict[str, Any]]) -> tuple[List[Dict[s
         # Check if narrative has turning points and arc label
         has_ground_truth = (
             narrative.get('turning_points') is not None and 
-            narrative.get('arc_label') is not None and
-            narrative.get('tp_pred_reasoning') is not None
+            narrative.get('arc_label') is not None
         )
         
         if has_ground_truth:
@@ -53,7 +52,8 @@ def main():
     random.seed(42)
     
     # Load narratives
-    narratives = load_narratives('combined_narratives_with_reasoning.json')
+    narratives = load_narratives('datasets/combined_narratives_with_reasoning.json')
+
     
     # Split into ground truth and non-ground truth
     ground_truth, non_ground_truth = split_by_ground_truth(narratives)
@@ -62,11 +62,11 @@ def main():
     train_data, val_data, test_data = train_val_test_split(ground_truth)
     
     # Save all splits
-    save_json(ground_truth, 'ground_truth.json')
-    save_json(non_ground_truth, 'non_ground_truth.json')
-    save_json(train_data, 'train.json')
-    save_json(val_data, 'val.json')
-    save_json(test_data, 'test.json')
+    save_json(ground_truth, 'datasets/ground_truth.json')
+    save_json(non_ground_truth, 'datasets/non_ground_truth.json')
+    save_json(train_data, 'datasets/train.json')
+    save_json(val_data, 'datasets/val.json')
+    save_json(test_data, 'datasets/test.json')
     
     # Print statistics
     print(f"Total narratives: {len(narratives)}")

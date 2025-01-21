@@ -110,6 +110,9 @@ def parse_args():
                         help='Number of training epochs (default: 1)')
     parser.add_argument('--resume_from_checkpoint', type=str, default=None,
                         help='Path to checkpoint to resume training from (default: None)')
+    parser.add_argument('--hub_model_id', type=str, 
+                        default="owaridere/Llama-3.3-70B-Instruct-tp-finetune",
+                        help='Model ID for uploading to HuggingFace Hub')
     return parser.parse_args()
 
 def main():
@@ -184,8 +187,15 @@ def main():
     )
 
     trainer_stats = trainer.train(resume_from_checkpoint=args.resume_from_checkpoint)
+    
+    # Save locally first
     model.save_pretrained(lora_save_name)
     tokenizer.save_pretrained(lora_save_name)
+    
+    # Push to Hub
+    print(f"Uploading model to HuggingFace Hub: {args.hub_model_id}")
+    model.push_to_hub(args.hub_model_id, use_temp_dir=True)
+    tokenizer.push_to_hub(args.hub_model_id, use_temp_dir=True)
     
     # Close wandb run
     wandb.finish()
