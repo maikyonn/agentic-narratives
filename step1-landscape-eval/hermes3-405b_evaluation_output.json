@@ -1,0 +1,1758 @@
+[
+  {
+    "narrative_id": "54868396",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 19,\n  \"tp4\": 29,\n  \"tp5\": 31,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66494833",
+    "model_output": "{tp1: 11.0, tp2: 42.0, tp3: 49.0, tp4: 53.0, tp5: 61.0, story_arc: \"Oedipus\"}"
+  },
+  {
+    "narrative_id": "31643609",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 14,\n  \"tp3\": 20,\n  \"tp4\": 30,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "71399138",
+    "model_output": "{tp1: 4.0, tp2: 7.0, tp3: 14.0, tp4: 32.0, tp5: 35.0, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "92861580",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 7,\n  \"tp3\": 16,\n  \"tp4\": 32,\n  \"tp5\": 38,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "62724310",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 12,\n  \"tp4\": 18,\n  \"tp5\": 25,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "59312845",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 10,\n  \"tp3\": 15,\n  \"tp4\": 17,\n  \"tp5\": 25,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "63117680",
+    "model_output": "{tp1: 3, tp2: 9, tp3: 14, tp4: 21, tp5: 24, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "56626310",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 5,\n  \"tp3\": 10,\n  \"tp4\": 20,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "57558285",
+    "model_output": "{\n    \"tp1\": 1,\n    \"tp2\": 11,\n    \"tp3\": 13,\n    \"tp4\": 14,\n    \"tp5\": 27,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "52056718",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 4,\n  \"tp3\": 11,\n  \"tp4\": 20,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "73070221",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 6,\n  \"tp3\": 29,\n  \"tp4\": 36,\n  \"tp5\": 42,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "17093384",
+    "model_output": "{\n    \"tp1\": 3,\n    \"tp2\": 13,\n    \"tp3\": 18,\n    \"tp4\": 17,\n    \"tp5\": 26,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "68903218",
+    "model_output": "{\n    \"tp1\": 6,\n    \"tp2\": 9,\n    \"tp3\": 16,\n    \"tp4\": 20,\n    \"tp5\": 28,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "24537317",
+    "model_output": "{\n  \"tp1\": 8,\n  \"tp2\": 13,\n  \"tp3\": 22,\n  \"tp4\": 29,\n  \"tp5\": 44,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66567199",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 6,\n  \"tp3\": 14,\n  \"tp4\": 28,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "75330297",
+    "model_output": "{\n  \"tp1\": 10,\n  \"tp2\": 12,\n  \"tp3\": 14,\n  \"tp4\": 22,\n  \"tp5\": 29,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "73506442",
+    "model_output": "{\n    \"tp1\": 4,\n    \"tp2\": 10,\n    \"tp3\": 14,\n    \"tp4\": 21,\n    \"tp5\": 31,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "73649111",
+    "model_output": "{\n  \"tp1\": 10.0,\n  \"tp2\": 16.0,\n  \"tp3\": 26.0,\n  \"tp4\": 29.0,\n  \"tp5\": 53.0,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "67081354",
+    "model_output": "{tp1: 2, tp2: 8, tp3: 15, tp4: 25, tp5: 36, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "32854620",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 5,\n  \"tp3\": 7,\n  \"tp4\": 11,\n  \"tp5\": 17,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "72040050",
+    "model_output": "{\n    \"tp1\": 5,\n    \"tp2\": 16,\n    \"tp3\": 21,\n    \"tp4\": 28,\n    \"tp5\": 29,\n    \"story_arc\": \"Icarus\"\n}"
+  },
+  {
+    "narrative_id": "17786948",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 12,\n  \"tp3\": 19,\n  \"tp4\": 21,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61678534",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 9,\n  \"tp3\": 11,\n  \"tp4\": 23,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "37983551",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 6,\n  \"tp3\": 12,\n  \"tp4\": 18,\n  \"tp5\": 26,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "70139974",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 12,\n  \"tp3\": 43,\n  \"tp4\": 51,\n  \"tp5\": 57,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "96167861",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 11,\n  \"tp3\": 31,\n  \"tp4\": 39,\n  \"tp5\": 50,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "70941136",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 13,\n  \"tp3\": 21,\n  \"tp4\": 27,\n  \"tp5\": 35,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "82184879",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 18,\n  \"tp4\": 20,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "65213428",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 7,\n  \"tp4\": 15,\n  \"tp5\": 31,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "11436303",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 18,\n  \"tp3\": 24,\n  \"tp4\": 21,\n  \"tp5\": 38,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "66692392",
+    "model_output": "{tp1: 6, tp2: 7, tp3: 12, tp4: 22, tp5: 39, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "84483096",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 16,\n  \"tp4\": 22,\n  \"tp5\": 39,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "64576226",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 12,\n  \"tp4\": 31,\n  \"tp5\": 39,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "7506903",
+    "model_output": "{tp1: 5, tp2: 7, tp3: 17, tp4: 20, tp5: 27, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "69148790",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 23,\n  \"tp5\": 26,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "59371558",
+    "model_output": "{\n  \"tp1\": 10,\n  \"tp2\": 13,\n  \"tp3\": 22,\n  \"tp4\": 31,\n  \"tp5\": 54,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "73780174",
+    "model_output": "{tp1: 4, tp2: 15, tp3: 21, tp4: 24, tp5: 30, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "80128611",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 4,\n  \"tp3\": 6,\n  \"tp4\": 7,\n  \"tp5\": 11,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60357421",
+    "model_output": "{\n    \"tp1\": 3,\n    \"tp2\": 6,\n    \"tp3\": 16,\n    \"tp4\": 22,\n    \"tp5\": 35,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "49267012",
+    "model_output": "{tp1: 5, tp2: 8, tp3: 14, tp4: 23, tp5: 32, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "65424953",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 11,\n  \"tp3\": 22,\n  \"tp4\": 27,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "81585690",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 20,\n  \"tp4\": 29,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "67113214",
+    "model_output": "{\"tp1\": 5.0, \"tp2\": 9.0, \"tp3\": 14.0, \"tp4\": 26.0, \"tp5\": 35.0, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "88358493",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 12,\n  \"tp3\": 18,\n  \"tp4\": 21,\n  \"tp5\": 29,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "70930943",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 9,\n  \"tp3\": 16,\n  \"tp4\": 38,\n  \"tp5\": 47,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "23544986",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 8,\n  \"tp3\": 14,\n  \"tp4\": 20,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66054769",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 15,\n  \"tp3\": 37,\n  \"tp4\": 39,\n  \"tp5\": 43,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "81314059",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 9,\n  \"tp3\": 13,\n  \"tp4\": 17,\n  \"tp5\": 19,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "71347947",
+    "model_output": "{\n    \"tp1\": 2,\n    \"tp2\": 7,\n    \"tp3\": 14,\n    \"tp4\": 33,\n    \"tp5\": 37,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "77287312",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 11,\n  \"tp4\": 26,\n  \"tp5\": 30,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "60404943",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 10,\n  \"tp4\": 19,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "76295235",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 10,\n  \"tp3\": 17,\n  \"tp4\": 12,\n  \"tp5\": 24,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "61253881",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 17,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "19224360",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\"tp1\": 2.0, \"tp2\": 13.0, \"tp3\": 21.0, \"tp4\": 25.0, \"tp5\": 33.0, \"story_arc\": \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "67193367",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 4,\n  \"tp3\": 22,\n  \"tp4\": 25,\n  \"tp5\": 34,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "78286811",
+    "model_output": "{\n  \"tp1\": 10,\n  \"tp2\": 17,\n  \"tp3\": 18,\n  \"tp4\": 23,\n  \"tp5\": 36,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "74607040",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 11,\n  \"tp3\": 18,\n  \"tp4\": 32,\n  \"tp5\": 36,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60246522",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 11,\n  \"tp3\": 18,\n  \"tp4\": 24,\n  \"tp5\": 36,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "74341176",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 8,\n  \"tp3\": 11,\n  \"tp4\": 20,\n  \"tp5\": 30,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "68182474",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 13,\n  \"tp3\": 23,\n  \"tp4\": 27,\n  \"tp5\": 38,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60090895",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 10,\n  \"tp3\": 31,\n  \"tp4\": 27,\n  \"tp5\": 47,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "53778343",
+    "model_output": "{tp1: 8.0, tp2: 12.0, tp3: 24.0, tp4: 22.0, tp5: 43.0, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "61920356",
+    "model_output": "{tp1: 3, tp2: 8, tp3: 14, tp4: 31, tp5: 35, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "31108485",
+    "model_output": "{tp1: 5, tp2: 9, tp3: 15, tp4: 27, tp5: 37, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "62858789",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 10,\n  \"tp3\": 20,\n  \"tp4\": 33,\n  \"tp5\": 39,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "21323229",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 27,\n  \"tp4\": 24,\n  \"tp5\": 43,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "65867428",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 13,\n  \"tp4\": 20,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "4336249",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 4,\n  \"tp3\": 16,\n  \"tp4\": 9,\n  \"tp5\": 31,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "69854548",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 4,\n  \"tp3\": 13,\n  \"tp4\": 20,\n  \"tp5\": 28,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "77189705",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 17,\n  \"tp3\": 23,\n  \"tp4\": 31,\n  \"tp5\": 42,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "57441882",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 14,\n  \"tp4\": 22,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "23476689",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 9,\n  \"tp3\": 12,\n  \"tp4\": 20,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66812498",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 12,\n  \"tp3\": 22,\n  \"tp4\": 24,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "7129971",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 13,\n  \"tp3\": 20,\n  \"tp4\": 24,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66825295",
+    "model_output": "{\n    \"tp1\": 6,\n    \"tp2\": 9,\n    \"tp3\": 12,\n    \"tp4\": 15,\n    \"tp5\": 18,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "8224550",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 11,\n  \"tp3\": 16,\n  \"tp4\": 18,\n  \"tp5\": 26,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "71719706",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 11,\n  \"tp3\": 14,\n  \"tp4\": 27,\n  \"tp5\": 32,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "13622801",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 9,\n  \"tp3\": 17,\n  \"tp4\": 21,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "68832093",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 7,\n  \"tp3\": 17,\n  \"tp4\": 29,\n  \"tp5\": 44,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "23073940",
+    "model_output": "{\n  \"tp1\": 8,\n  \"tp2\": 12,\n  \"tp3\": 21,\n  \"tp4\": 27,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "60694612",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 9,\n  \"tp3\": 14,\n  \"tp4\": 21,\n  \"tp5\": 24,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "55690758",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 7,\n  \"tp3\": 23,\n  \"tp4\": 17,\n  \"tp5\": 46,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "70221912",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 3,\n  \"tp3\": 8,\n  \"tp4\": 14,\n  \"tp5\": 37,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "85284939",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 11,\n  \"tp4\": 18,\n  \"tp5\": 29,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "72914972",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 3,\n    \"tp2\": 12,\n    \"tp3\": 20,\n    \"tp4\": 21,\n    \"tp5\": 28,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "69820131",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 11,\n  \"tp3\": 21,\n  \"tp4\": 18,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "63276163",
+    "model_output": "{tp1: 9, tp2: 21, tp3: 31, tp4: 44, tp5: 47, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "25280167",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 9,\n  \"tp4\": 18,\n  \"tp5\": 26,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "67410645",
+    "model_output": "{\n  \"tp1\": 8,\n  \"tp2\": 20,\n  \"tp3\": 32,\n  \"tp4\": 46,\n  \"tp5\": 49,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "95155694",
+    "model_output": "{tp1: 6, tp2: 10, tp3: 15, tp4: 7, tp5: 28, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "65420978",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 11,\n  \"tp3\": 14,\n  \"tp4\": 20,\n  \"tp5\": 27,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "82148517",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 19,\n  \"tp3\": 31,\n  \"tp4\": 21,\n  \"tp5\": 42,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "63671449",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 11,\n  \"tp4\": 20,\n  \"tp5\": 31,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "9899893",
+    "model_output": "{\n    \"tp1\": 4,\n    \"tp2\": 22,\n    \"tp3\": 28,\n    \"tp4\": 32,\n    \"tp5\": 38,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "71175560",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 8,\n  \"tp3\": 22,\n  \"tp4\": 28,\n  \"tp5\": 33,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "60765854",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 14,\n  \"tp3\": 17,\n  \"tp4\": 23,\n  \"tp5\": 32,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "70789380",
+    "model_output": "{tp1: 1, tp2: 5, tp3: 14, tp4: 18, tp5: 33, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "51349527",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 11,\n  \"tp3\": 20,\n  \"tp4\": 25,\n  \"tp5\": 31,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "65146782",
+    "model_output": "{tp1: 3, tp2: 7, tp3: 14, tp4: 18, tp5: 25, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "67224269",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 14,\n  \"tp3\": 21,\n  \"tp4\": 17,\n  \"tp5\": 24,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "70332986",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 11,\n  \"tp3\": 28,\n  \"tp4\": 30,\n  \"tp5\": 33,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "14477596",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 3,\n  \"tp3\": 10,\n  \"tp4\": 13,\n  \"tp5\": 15,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "62702563",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 16,\n  \"tp4\": 29,\n  \"tp5\": 31,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "75694242",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 10,\n  \"tp4\": 17,\n  \"tp5\": 23,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "70351362",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 22,\n  \"tp4\": 26,\n  \"tp5\": 34,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "97395599",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 12,\n  \"tp3\": 28,\n  \"tp4\": 43,\n  \"tp5\": 46,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "73254219",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 11,\n  \"tp3\": 26,\n  \"tp4\": 32,\n  \"tp5\": 47,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "42157022",
+    "model_output": "{tp1: 5, tp2: 9, tp3: 14, tp4: 16, tp5: 28, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "74750095",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 12,\n  \"tp3\": 19,\n  \"tp4\": 21,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "58863366",
+    "model_output": "{tp1: 8, tp2: 11, tp3: 34, tp4: 28, tp5: 59, story_arc: \"Icarus\"}"
+  },
+  {
+    "narrative_id": "70317816",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 9,\n  \"tp3\": 21,\n  \"tp4\": 31,\n  \"tp5\": 35,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "35380670",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 9,\n  \"tp3\": 12,\n  \"tp4\": 17,\n  \"tp5\": 20,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "57963342",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 15,\n  \"tp4\": 22,\n  \"tp5\": 41,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "82672934",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 11,\n  \"tp3\": 15,\n  \"tp4\": 20,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "67662091",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 14,\n  \"tp3\": 17,\n  \"tp4\": 23,\n  \"tp5\": 27,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "11194689",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 10,\n  \"tp3\": 21,\n  \"tp4\": 20,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "67321742",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 11,\n  \"tp4\": 25,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "30451032",
+    "model_output": "{\"tp1\": 13, \"tp2\": 16, \"tp3\": 18, \"tp4\": 23, \"tp5\": 28, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "68437738",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 21,\n  \"tp5\": 33,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "3315721",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 9,\n  \"tp3\": 12,\n  \"tp4\": 17,\n  \"tp5\": 19,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "71580941",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 10,\n  \"tp3\": 19,\n  \"tp4\": 22,\n  \"tp5\": 31,\n  \"story_arc\": \"Icarus\"\n}"
+  },
+  {
+    "narrative_id": "91259807",
+    "model_output": "{tp1: 7, tp2: 10, tp3: 11, tp4: 28, tp5: 24, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "70634676",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 13,\n  \"tp4\": 17,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "20933693",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 14,\n  \"tp3\": 22,\n  \"tp4\": 30,\n  \"tp5\": 34,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60843917",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 17,\n  \"tp3\": 22,\n  \"tp4\": 26,\n  \"tp5\": 32,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "17537834",
+    "model_output": "{\"tp1\": 3.0, \"tp2\": 5.0, \"tp3\": 7.0, \"tp4\": 20.0, \"tp5\": 27.0, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "71003625",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 14,\n  \"tp4\": 24,\n  \"tp5\": 32,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "6059194",
+    "model_output": "{tp1: 4, tp2: 15, tp3: 25, tp4: 30, tp5: 36, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "60880471",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 22,\n  \"tp5\": 30,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "21069932",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 7,\n  \"tp3\": 11,\n  \"tp4\": 23,\n  \"tp5\": 31,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "64325640",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 3,\n    \"tp2\": 6,\n    \"tp3\": 15,\n    \"tp4\": 41,\n    \"tp5\": 50,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "2311778",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 13,\n  \"tp4\": 21,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "59560585",
+    "model_output": "{tp1: 1, tp2: 4, tp3: 11, tp4: 23, tp5: 30, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "39131920",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 17,\n  \"tp3\": 30,\n  \"tp4\": 22,\n  \"tp5\": 42,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "63287864",
+    "model_output": "{\n    \"tp1\": 7,\n    \"tp2\": 15,\n    \"tp3\": 17,\n    \"tp4\": 21,\n    \"tp5\": 27,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "95571491",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 15,\n  \"tp3\": 17,\n  \"tp4\": 20,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "67134190",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 8,\n  \"tp3\": 17,\n  \"tp4\": 20,\n  \"tp5\": 25,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "27470191",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 11,\n  \"tp3\": 13,\n  \"tp4\": 16,\n  \"tp5\": 20,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66902209",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 3,\n  \"tp3\": 6,\n  \"tp4\": 24,\n  \"tp5\": 35,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "82846736",
+    "model_output": "{tp1: 3, tp2: 11, tp3: 14, tp4: 15, tp5: 21, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "72919717",
+    "model_output": "{\n    \"tp1\": 2,\n    \"tp2\": 5,\n    \"tp3\": 11,\n    \"tp4\": 24,\n    \"tp5\": 36,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "53909526",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 4,\n  \"tp3\": 10,\n  \"tp4\": 13,\n  \"tp5\": 15,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "67894564",
+    "model_output": "{tp1: 2, tp2: 4, tp3: 23, tp4: 22, tp5: 34, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "82086527",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 10,\n  \"tp3\": 13,\n  \"tp4\": 14,\n  \"tp5\": 20,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60755404",
+    "model_output": "{tp1: 2, tp2: 13, tp3: 21, tp4: 30, tp5: 37, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "80654675",
+    "model_output": "{tp1: 2, tp2: 12, tp3: 15, tp4: 25, tp5: 30, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "66979614",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 17,\n  \"tp3\": 27,\n  \"tp4\": 29,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "27588317",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 9,\n  \"tp4\": 11,\n  \"tp5\": 13,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66916133",
+    "model_output": "{tp1: 7, tp2: 11, tp3: 19, tp4: 27, tp5: 32, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "47921273",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 17,\n  \"tp3\": 25,\n  \"tp4\": 30,\n  \"tp5\": 43,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "71997053",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 14,\n  \"tp3\": 23,\n  \"tp4\": 29,\n  \"tp5\": 35,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66211621",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 10,\n  \"tp3\": 14,\n  \"tp4\": 23,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "72856967",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 8,\n  \"tp3\": 18,\n  \"tp4\": 26,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "96961892",
+    "model_output": "{\"tp1\": 1, \"tp2\": 8, \"tp3\": 17, \"tp4\": 13, \"tp5\": 34, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "59056554",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 3,\n  \"tp3\": 21,\n  \"tp4\": 31,\n  \"tp5\": 40,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "79514666",
+    "model_output": "{tp1: 7, tp2: 11, tp3: 28, tp4: 25, tp5: 34, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "57967629",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 18,\n  \"tp5\": 28,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "28910143",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 13,\n  \"tp3\": 18,\n  \"tp4\": 20,\n  \"tp5\": 29,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "69191982",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 31,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "91092631",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 12,\n  \"tp3\": 16,\n  \"tp4\": 21,\n  \"tp5\": 26,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "62334733",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 11,\n  \"tp3\": 22,\n  \"tp4\": 23,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "4577694",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 18,\n  \"tp4\": 20,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "60915120",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 8,\n  \"tp3\": 15,\n  \"tp4\": 20,\n  \"tp5\": 28,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "22415370",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 22,\n  \"tp4\": 28,\n  \"tp5\": 37,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "64703403",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 10,\n  \"tp4\": 18,\n  \"tp5\": 31,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "8692255",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 9,\n  \"tp3\": 14,\n  \"tp4\": 18,\n  \"tp5\": 21,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "61394870",
+    "model_output": "{\n    \"tp1\": 4,\n    \"tp2\": 10,\n    \"tp3\": 13,\n    \"tp4\": 16,\n    \"tp5\": 37,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "8745932",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 9,\n  \"tp3\": 10,\n  \"tp4\": 12,\n  \"tp5\": 23,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61288403",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 8,\n  \"tp4\": 16,\n  \"tp5\": 25,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "2902506",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 12,\n  \"tp3\": 16,\n  \"tp4\": 19,\n  \"tp5\": 23,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "70949583",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 8,\n  \"tp3\": 17,\n  \"tp4\": 32,\n  \"tp5\": 39,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "69459598",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 3,\n  \"tp3\": 7,\n  \"tp4\": 8,\n  \"tp5\": 13,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "62237803",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 4,\n  \"tp3\": 12,\n  \"tp4\": 22,\n  \"tp5\": 26,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "1575437",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 7,\n  \"tp3\": 9,\n  \"tp4\": 12,\n  \"tp5\": 14,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "70104429",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 12,\n  \"tp3\": 20,\n  \"tp4\": 26,\n  \"tp5\": 40,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "43672509",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 13,\n  \"tp3\": 14,\n  \"tp4\": 17,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "64572702",
+    "model_output": "{tp1: 3, tp2: 6, tp3: 10, tp4: 21, tp5: 30, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "40286115",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 20,\n  \"tp4\": 23,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "69327707",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 17,\n  \"tp4\": 21,\n  \"tp5\": 36,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "73800873",
+    "model_output": "{\"tp1\": 4.0, \"tp2\": 11.0, \"tp3\": 14.0, \"tp4\": 17.0, \"tp5\": 19.0, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "66570605",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 7,\n  \"tp3\": 22,\n  \"tp4\": 38,\n  \"tp5\": 45,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "63673825",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 12,\n  \"tp3\": 20,\n  \"tp4\": 17,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "65074569",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 12,\n  \"tp4\": 27,\n  \"tp5\": 32,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "15263223",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 13,\n  \"tp3\": 17,\n  \"tp4\": 28,\n  \"tp5\": 40,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66301445",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 10,\n  \"tp3\": 14,\n  \"tp4\": 20,\n  \"tp5\": 27,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "43616647",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 8,\n  \"tp3\": 12,\n  \"tp4\": 14,\n  \"tp5\": 20,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "62263466",
+    "model_output": "{\n    \"tp1\": 1,\n    \"tp2\": 6,\n    \"tp3\": 10,\n    \"tp4\": 28,\n    \"tp5\": 38,\n    \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "50512308",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 12,\n  \"tp3\": 16,\n  \"tp4\": 18,\n  \"tp5\": 22,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "71967969",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 6,\n  \"tp3\": 15,\n  \"tp4\": 20,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "22304778",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 13,\n  \"tp3\": 15,\n  \"tp4\": 26,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "65392111",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 17,\n  \"tp4\": 29,\n  \"tp5\": 33,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "68190542",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 9,\n  \"tp3\": 15,\n  \"tp4\": 16,\n  \"tp5\": 24,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60070035",
+    "model_output": "{\n    \"tp1\": 3,\n    \"tp2\": 8,\n    \"tp3\": 20,\n    \"tp4\": 25,\n    \"tp5\": 32,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "8299120",
+    "model_output": "{\n  \"tp1\": 11,\n  \"tp2\": 20,\n  \"tp3\": 22,\n  \"tp4\": 14,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61818597",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 1,\n    \"tp2\": 3,\n    \"tp3\": 6,\n    \"tp4\": 20,\n    \"tp5\": 22,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "90639334",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 4,\n  \"tp3\": 12,\n  \"tp4\": 18,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "63387124",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 10,\n  \"tp4\": 24,\n  \"tp5\": 33,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "98339164",
+    "model_output": "{tp1: 4.0, tp2: 7.0, tp3: 12.0, tp4: 6.0, tp5: 19.0, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "66596313",
+    "model_output": "{tp1: 3, tp2: 6, tp3: 22, tp4: 35, tp5: 44, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "90474198",
+    "model_output": "{\n  \"tp1\": 11,\n  \"tp2\": 14,\n  \"tp3\": 28,\n  \"tp4\": 30,\n  \"tp5\": 38,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "65504024",
+    "model_output": "{tp1: 4, tp2: 13, tp3: 21, tp4: 27, tp5: 29, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "61027838",
+    "model_output": "{\n  \"tp1\": 10,\n  \"tp2\": 17,\n  \"tp3\": 27,\n  \"tp4\": 32,\n  \"tp5\": 41,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60122575",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 9,\n  \"tp3\": 26,\n  \"tp4\": 28,\n  \"tp5\": 39,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "51912680",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 10,\n  \"tp3\": 12,\n  \"tp4\": 16,\n  \"tp5\": 22,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "62877295",
+    "model_output": "{tp1: 3, tp2: 5, tp3: 16, tp4: 15, tp5: 24, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "26455901",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 9,\n  \"tp4\": 15,\n  \"tp5\": 18,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "68183268",
+    "model_output": "{\n    \"tp1\": 3,\n    \"tp2\": 8,\n    \"tp3\": 11,\n    \"tp4\": 22,\n    \"tp5\": 29,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "87214240",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 10,\n  \"tp3\": 21,\n  \"tp4\": 27,\n  \"tp5\": 33,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "67570226",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 5,\n  \"tp3\": 11,\n  \"tp4\": 28,\n  \"tp5\": 34,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "4649154",
+    "model_output": "{tp1: 5, tp2: 9, tp3: 14, tp4: 12, tp5: 21, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "56587836",
+    "model_output": "{tp1: 6, tp2: 4, tp3: 20, tp4: 19, tp5: 25, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "49295197",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 9,\n  \"tp3\": 15,\n  \"tp4\": 11,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61199955",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 14,\n  \"tp4\": 23,\n  \"tp5\": 29,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "69643386",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 16,\n  \"tp3\": 23,\n  \"tp4\": 27,\n  \"tp5\": 31,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "59389913",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 17,\n  \"tp4\": 29,\n  \"tp5\": 34,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "57318280",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 8,\n  \"tp3\": 17,\n  \"tp4\": 13,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "61345469",
+    "model_output": "{tp1: 4, tp2: 12, tp3: 20, tp4: 33, tp5: 57, story_arc: \"Oedipus\"}"
+  },
+  {
+    "narrative_id": "99776112",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 12,\n  \"tp3\": 16,\n  \"tp4\": 24,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "62169868",
+    "model_output": "{\n    \"tp1\": 7,\n    \"tp2\": 18,\n    \"tp3\": 24,\n    \"tp4\": 29,\n    \"tp5\": 33,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "77372912",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 17,\n  \"tp3\": 22,\n  \"tp4\": 29,\n  \"tp5\": 31,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61253857",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 15,\n  \"tp4\": 33,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "48069373",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 8,\n  \"tp3\": 13,\n  \"tp4\": 23,\n  \"tp5\": 31,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "65654086",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 10,\n  \"tp3\": 12,\n  \"tp4\": 20,\n  \"tp5\": 31,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "31377687",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 15,\n  \"tp3\": 27,\n  \"tp4\": 32,\n  \"tp5\": 44,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "64654458",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 4,\n  \"tp3\": 14,\n  \"tp4\": 16,\n  \"tp5\": 29,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "27291341",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 13,\n  \"tp3\": 17,\n  \"tp4\": 7,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "59183326",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 4,\n  \"tp3\": 12,\n  \"tp4\": 16,\n  \"tp5\": 19,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "59083287",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 10,\n  \"tp3\": 17,\n  \"tp4\": 20,\n  \"tp5\": 33,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "62399704",
+    "model_output": "{\n  \"tp1\": 16,\n  \"tp2\": 25,\n  \"tp3\": 33,\n  \"tp4\": 36,\n  \"tp5\": 38,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "88932419",
+    "model_output": "{tp1: 4, tp2: 13, tp3: 16, tp4: 21, tp5: 34, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "65310444",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 2,\n  \"tp3\": 19,\n  \"tp4\": 26,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "50911240",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 9,\n  \"tp3\": 14,\n  \"tp4\": 21,\n  \"tp5\": 44,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "65225272",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 8,\n    \"tp2\": 17,\n    \"tp3\": 22,\n    \"tp4\": 37,\n    \"tp5\": 44,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "70719838",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 12,\n  \"tp3\": 16,\n  \"tp4\": 17,\n  \"tp5\": 23,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "67755859",
+    "model_output": "{tp1: 11, tp2: 30, tp3: 52, tp4: 63, tp5: 80, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "39221798",
+    "model_output": "{\n  \"tp1\": 10,\n  \"tp2\": 19,\n  \"tp3\": 28,\n  \"tp4\": 40,\n  \"tp5\": 57,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61128264",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 8,\n  \"tp3\": 12,\n  \"tp4\": 19,\n  \"tp5\": 31,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "75563137",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 13,\n  \"tp3\": 19,\n  \"tp4\": 21,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "68671096",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 8,\n  \"tp3\": 14,\n  \"tp4\": 23,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "99611432",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 3,\n  \"tp3\": 11,\n  \"tp4\": 8,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61143677",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 7,\n  \"tp3\": 13,\n  \"tp4\": 19,\n  \"tp5\": 40,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "91233550",
+    "model_output": "{\"tp1\": 3, \"tp2\": 9, \"tp3\": 14, \"tp4\": 16, \"tp5\": 23, \"story_arc\": \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "66489064",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 7,\n  \"tp3\": 23,\n  \"tp4\": 30,\n  \"tp5\": 39,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "34546196",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 11,\n  \"tp3\": 13,\n  \"tp4\": 21,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "59873067",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 2,\n    \"tp2\": 4,\n    \"tp3\": 9,\n    \"tp4\": 28,\n    \"tp5\": 39,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "22052318",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 9,\n  \"tp3\": 25,\n  \"tp4\": 32,\n  \"tp5\": 65,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "63285123",
+    "model_output": "{\n    \"tp1\": 3,\n    \"tp2\": 4,\n    \"tp3\": 26,\n    \"tp4\": 33,\n    \"tp5\": 36,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "58712480",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 8,\n  \"tp3\": 12,\n  \"tp4\": 18,\n  \"tp5\": 22,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "70170340",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 11,\n  \"tp3\": 22,\n  \"tp4\": 24,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "6914334",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 9,\n  \"tp4\": 20,\n  \"tp5\": 26,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "66914834",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 7,\n  \"tp3\": 19,\n  \"tp4\": 25,\n  \"tp5\": 29,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "66720491",
+    "model_output": "{tp1: 10.0, tp2: 19.0, tp3: 27.0, tp4: 31.0, tp5: 36.0, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "64300244",
+    "model_output": "{\n    \"tp1\": 4,\n    \"tp2\": 8,\n    \"tp3\": 14,\n    \"tp4\": 20,\n    \"tp5\": 25,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "92379396",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 11,\n  \"tp4\": 16,\n  \"tp5\": 21,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "65343667",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 3,\n    \"tp2\": 10,\n    \"tp3\": 15,\n    \"tp4\": 23,\n    \"tp5\": 32,\n    \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "1556333",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 12,\n  \"tp4\": 21,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "58655902",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 32,\n  \"tp5\": 36,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "12084954",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 10,\n  \"tp3\": 15,\n  \"tp4\": 22,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "67474179",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 10,\n  \"tp3\": 25,\n  \"tp4\": 32,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "45514645",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 24,\n  \"tp5\": 27,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "63808340",
+    "model_output": "{%22tp1%22:%226%22,%22tp2%22:%229%22,%22tp3%22:%2214%22,%22tp4%22:%2227%22,%22tp5%22:%2233%22,%22story_arc%22:%22Double%20Man%20in%20a%20Hole%22}"
+  },
+  {
+    "narrative_id": "41613358",
+    "model_output": "{tp1: 1.0, tp2: 6.0, tp3: 11.0, tp4: 25.0, tp5: 40.0, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "63658354",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 5,\n  \"tp3\": 27,\n  \"tp4\": 34,\n  \"tp5\": 35,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "60396340",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 20,\n  \"tp3\": 44,\n  \"tp4\": 51,\n  \"tp5\": 56,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "69310615",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 13,\n  \"tp3\": 18,\n  \"tp4\": 22,\n  \"tp5\": 32,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "63144886",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 11,\n  \"tp3\": 16,\n  \"tp4\": 20,\n  \"tp5\": 28,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "63050340",
+    "model_output": "{\n    \"tp1\": 1,\n    \"tp2\": 8,\n    \"tp3\": 39,\n    \"tp4\": 76,\n    \"tp5\": 82,\n    \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "29941264",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 6,\n  \"tp4\": 11,\n  \"tp5\": 17,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "67380255",
+    "model_output": "{\n    \"tp1\": 5,\n    \"tp2\": 11,\n    \"tp3\": 14,\n    \"tp4\": 23,\n    \"tp5\": 30,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "59959261",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 8,\n  \"tp3\": 18,\n  \"tp4\": 32,\n  \"tp5\": 36,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "58531212",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 11,\n  \"tp3\": 54,\n  \"tp4\": 72,\n  \"tp5\": 75,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "74475646",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 9,\n  \"tp3\": 22,\n  \"tp4\": 23,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "68370147",
+    "model_output": "{\n    \"tp1\": 4,\n    \"tp2\": 10,\n    \"tp3\": 19,\n    \"tp4\": 28,\n    \"tp5\": 36,\n    \"story_arc\": \"Icarus\"\n}"
+  },
+  {
+    "narrative_id": "69454197",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 19,\n  \"tp3\": 22,\n  \"tp4\": 23,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61086257",
+    "model_output": "{\n    \"tp1\": 4,\n    \"tp2\": 12,\n    \"tp3\": 16,\n    \"tp4\": 28,\n    \"tp5\": 36,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "7800148",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 8,\n  \"tp3\": 12,\n  \"tp4\": 17,\n  \"tp5\": 23,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66580777",
+    "model_output": "{tp1: 6.0, tp2: 12.0, tp3: 20.0, tp4: 22.0, tp5: 30.0, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "12239338",
+    "model_output": "{\n    \"tp1\": 5,\n    \"tp2\": 10,\n    \"tp3\": 17,\n    \"tp4\": 24,\n    \"tp5\": 28,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60070212",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 7,\n  \"tp3\": 11,\n  \"tp4\": 37,\n  \"tp5\": 39,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "51635982",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 17,\n  \"tp3\": 21,\n  \"tp4\": 25,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "68801790",
+    "model_output": "{\n    \"tp1\": 1,\n    \"tp2\": 7,\n    \"tp3\": 13,\n    \"tp4\": 21,\n    \"tp5\": 29,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "44153162",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 7,\n  \"tp3\": 10,\n  \"tp4\": 11,\n  \"tp5\": 15,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "64027062",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 4,\n  \"tp3\": 6,\n  \"tp4\": 23,\n  \"tp5\": 29,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "35134500",
+    "model_output": "{\"tp1\": 3.0, \"tp2\": 11.0, \"tp3\": 21.0, \"tp4\": 26.0, \"tp5\": 35.0, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "62982590",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 4,\n  \"tp3\": 9,\n  \"tp4\": 30,\n  \"tp5\": 40,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "80210449",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 9,\n  \"tp3\": 11,\n  \"tp4\": 14,\n  \"tp5\": 19,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61128102",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 9,\n    \"tp2\": 16,\n    \"tp3\": 25,\n    \"tp4\": 43,\n    \"tp5\": 53,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "72178596",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 8,\n  \"tp3\": 11,\n  \"tp4\": 21,\n  \"tp5\": 40,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "63706669",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 3,\n  \"tp3\": 19,\n  \"tp4\": 33,\n  \"tp5\": 42,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "56941476",
+    "model_output": "{tp1: 4.0, tp2: 7.0, tp3: 15.0, tp4: 33.0, tp5: 43.0, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "64552523",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 9,\n  \"tp3\": 12,\n  \"tp4\": 35,\n  \"tp5\": 52,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "83670910",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 9,\n  \"tp3\": 20,\n  \"tp4\": 16,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "69649844",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 10,\n  \"tp4\": 21,\n  \"tp5\": 30,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "15303181",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 10,\n  \"tp3\": 35,\n  \"tp4\": 28,\n  \"tp5\": 45,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "60527595",
+    "model_output": "{tp1: 3, tp2: 4, tp3: 14, tp4: 17, tp5: 32, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "73065741",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 4,\n    \"tp2\": 9,\n    \"tp3\": 15,\n    \"tp4\": 14,\n    \"tp5\": 23,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "67306995",
+    "model_output": "{\n    \"tp1\": 4,\n    \"tp2\": 7,\n    \"tp3\": 13,\n    \"tp4\": 24,\n    \"tp5\": 32,\n    \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "40232322",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 7,\n  \"tp3\": 12,\n  \"tp4\": 24,\n  \"tp5\": 26,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "67453428",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 8,\n  \"tp3\": 19,\n  \"tp4\": 25,\n  \"tp5\": 40,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "89724062",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 12,\n  \"tp3\": 25,\n  \"tp4\": 31,\n  \"tp5\": 34,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "62387145",
+    "model_output": "{\"tp1\": 1, \"tp2\": 2, \"tp3\": 4, \"tp4\": 15, \"tp5\": 31, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "89318973",
+    "model_output": "{tp1: 7.0, tp2: 35.0, tp3: 46.0, tp4: 48.0, tp5: 56.0, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "62555301",
+    "model_output": "{\n  \"tp1\": 10,\n  \"tp2\": 14,\n  \"tp3\": 21,\n  \"tp4\": 34,\n  \"tp5\": 37,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "29323838",
+    "model_output": "{tp1: 5, tp2: 10, tp3: 19, tp4: 27, tp5: 30, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "65745505",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 12,\n  \"tp4\": 24,\n  \"tp5\": 30,\n  \"story_arc\": \"Icarus\"\n}"
+  },
+  {
+    "narrative_id": "66275702",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 19,\n  \"tp3\": 31,\n  \"tp4\": 36,\n  \"tp5\": 42,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "58089713",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 8,\n  \"tp3\": 21,\n  \"tp4\": 26,\n  \"tp5\": 28,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "31748970",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 17,\n  \"tp4\": 20,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "63342411",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 7,\n  \"tp3\": 11,\n  \"tp4\": 29,\n  \"tp5\": 38,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "22623847",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 9,\n  \"tp4\": 17,\n  \"tp5\": 23,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "62856509",
+    "model_output": "{tp1: 3, tp2: 5, tp3: 14, tp4: 17, tp5: 31, story_arc: \"Oedipus\"}"
+  },
+  {
+    "narrative_id": "47514977",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 7,\n  \"tp3\": 13,\n  \"tp4\": 16,\n  \"tp5\": 20,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "61019688",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 4,\n  \"tp3\": 8,\n  \"tp4\": 14,\n  \"tp5\": 26,\n  \"story_arc\": \"Icarus\"\n}"
+  },
+  {
+    "narrative_id": "49597162",
+    "model_output": "{tp1: 4, tp2: 9, tp3: 15, tp4: 19, tp5: 23, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "59456391",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 10,\n  \"tp3\": 13,\n  \"tp4\": 16,\n  \"tp5\": 34,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "80871329",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 7,\n  \"tp3\": 15,\n  \"tp4\": 18,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "61156413",
+    "model_output": "{\n    \"tp1\": 1,\n    \"tp2\": 6,\n    \"tp3\": 17,\n    \"tp4\": 24,\n    \"tp5\": 30,\n    \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "71905755",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 10,\n  \"tp4\": 15,\n  \"tp5\": 19,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "67588326",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 11,\n  \"tp3\": 16,\n  \"tp4\": 18,\n  \"tp5\": 28,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "50926510",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 7,\n  \"tp3\": 18,\n  \"tp4\": 16,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "60328357",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 14,\n  \"tp3\": 21,\n  \"tp4\": 27,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "37889357",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 11,\n  \"tp3\": 13,\n  \"tp4\": 15,\n  \"tp5\": 20,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "62918772",
+    "model_output": "{\n  \"tp1\": 8,\n  \"tp2\": 12,\n  \"tp3\": 28,\n  \"tp4\": 36,\n  \"tp5\": 40,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "52799304",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 8,\n  \"tp4\": 11,\n  \"tp5\": 17,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "61637637",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 9,\n  \"tp3\": 14,\n  \"tp4\": 28,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "2553549",
+    "model_output": "{tp1: 6, tp2: 7, tp3: 11, tp4: 19, tp5: 31, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "61802475",
+    "model_output": "{\n    \"tp1\": 2.0,\n    \"tp2\": 7.0,\n    \"tp3\": 15.0,\n    \"tp4\": 19.0,\n    \"tp5\": 30.0,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "8744871",
+    "model_output": "{\n  \"tp1\": 8,\n  \"tp2\": 14,\n  \"tp3\": 17,\n  \"tp4\": 24,\n  \"tp5\": 32,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "66354923",
+    "model_output": "{\n    \"tp1\": 1,\n    \"tp2\": 8,\n    \"tp3\": 14,\n    \"tp4\": 27,\n    \"tp5\": 33,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "41549273",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 14,\n  \"tp3\": 15,\n  \"tp4\": 17,\n  \"tp5\": 26,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "70145813",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 11,\n  \"tp3\": 20,\n  \"tp4\": 27,\n  \"tp5\": 28,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "88937145",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 10,\n  \"tp3\": 13,\n  \"tp4\": 21,\n  \"tp5\": 33,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "69088282",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 11,\n  \"tp4\": 15,\n  \"tp5\": 36,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "94068075",
+    "model_output": "{tp1: 2, tp2: 8, tp3: 20, tp4: 26, tp5: 44, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "65985890",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 11,\n  \"tp3\": 19,\n  \"tp4\": 23,\n  \"tp5\": 29,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "96460365",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 13,\n  \"tp3\": 36,\n  \"tp4\": 29,\n  \"tp5\": 44,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "70499352",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 7,\n  \"tp3\": 8,\n  \"tp4\": 15,\n  \"tp5\": 29,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "82549615",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 10,\n  \"tp3\": 20,\n  \"tp4\": 18,\n  \"tp5\": 41,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "63946324",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 6,\n  \"tp3\": 17,\n  \"tp4\": 22,\n  \"tp5\": 25,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "93226489",
+    "model_output": "{tp1: 3.0, tp2: 6.0, tp3: 18.0, tp4: 23.0, tp5: 35.0, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "72072425",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 11,\n  \"tp4\": 25,\n  \"tp5\": 32,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "52905075",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 6,\n  \"tp3\": 18,\n  \"tp4\": 23,\n  \"tp5\": 46,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "72067971",
+    "model_output": "{tp1: 2, tp2: 8, tp3: 16, tp4: 27, tp5: 30, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "45194166",
+    "model_output": "{tp1: 10, tp2: 20, tp3: 29, tp4: 35, tp5: 40, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "72166827",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 9,\n  \"tp3\": 15,\n  \"tp4\": 29,\n  \"tp5\": 37,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "86395725",
+    "model_output": "{tp1: 1.0, tp2: 6.0, tp3: 14.0, tp4: 23.0, tp5: 31.0, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "69175942",
+    "model_output": "{\n    \"tp1\": 2,\n    \"tp2\": 8,\n    \"tp3\": 16,\n    \"tp4\": 33,\n    \"tp5\": 45,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "9865381",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 10,\n  \"tp3\": 15,\n  \"tp4\": 21,\n  \"tp5\": 25,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "72559332",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 5,\n  \"tp3\": 14,\n  \"tp4\": 22,\n  \"tp5\": 32,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "54842231",
+    "model_output": "{tp1: 7, tp2: 17, tp3: 27, tp4: 34, tp5: 43, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "66888017",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 12,\n  \"tp3\": 17,\n  \"tp4\": 24,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "20509341",
+    "model_output": "{\"tp1\": 7, \"tp2\": 11, \"tp3\": 21, \"tp4\": 28, \"tp5\": 39, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "72911737",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 6,\n  \"tp4\": 22,\n  \"tp5\": 28,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "56144416",
+    "model_output": "{tp1: 3, tp2: 7, tp3: 14, tp4: 23, tp5: 40, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "72365230",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 9,\n  \"tp3\": 21,\n  \"tp4\": 26,\n  \"tp5\": 35,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "75862611",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 16,\n  \"tp3\": 23,\n  \"tp4\": 33,\n  \"tp5\": 44,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "67233361",
+    "model_output": "{tp1: 3, tp2: 7, tp3: 20, tp4: 28, tp5: 35, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "34374261",
+    "model_output": "{tp1: 10, tp2: 21, tp3: 27, tp4: 44, tp5: 49, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "71733683",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 8,\n  \"tp3\": 15,\n  \"tp4\": 18,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "14429038",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 10,\n  \"tp3\": 14,\n  \"tp4\": 17,\n  \"tp5\": 21,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "71587498",
+    "model_output": "{tp1: 3, tp2: 11, tp3: 27, tp4: 31, tp5: 36, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "57582509",
+    "model_output": "{tp1: 5, tp2: 9, tp3: 12, tp4: 28, tp5: 34, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "72786931",
+    "model_output": "{\n    \"tp1\": 1,\n    \"tp2\": 2,\n    \"tp3\": 11,\n    \"tp4\": 22,\n    \"tp5\": 25,\n    \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "23283462",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 11,\n  \"tp3\": 17,\n  \"tp4\": 24,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "72116809",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 13,\n  \"tp3\": 23,\n  \"tp4\": 17,\n  \"tp5\": 31,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "14902581",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 9,\n  \"tp3\": 14,\n  \"tp4\": 17,\n  \"tp5\": 22,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "74653308",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 2,\n  \"tp3\": 8,\n  \"tp4\": 21,\n  \"tp5\": 33,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "415193",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 9,\n  \"tp3\": 12,\n  \"tp4\": 14,\n  \"tp5\": 21,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "74243985",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 10,\n  \"tp3\": 14,\n  \"tp4\": 28,\n  \"tp5\": 34,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "5732231",
+    "model_output": "{\n  \"tp1\": 13,\n  \"tp2\": 17,\n  \"tp3\": 28,\n  \"tp4\": 31,\n  \"tp5\": 38,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "58419234",
+    "model_output": "{tp1: 2, tp2: 7, tp3: 16, tp4: 22, tp5: 30, story_arc: \"Double Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "29401617",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 22,\n  \"tp4\": 29,\n  \"tp5\": 52,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "73039129",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 9,\n  \"tp3\": 18,\n  \"tp4\": 22,\n  \"tp5\": 29,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "32318667",
+    "model_output": "{\n  \"tp1\": 8,\n  \"tp2\": 18,\n  \"tp3\": 21,\n  \"tp4\": 23,\n  \"tp5\": 37,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "69503547",
+    "model_output": "{\n    \"tp1\": 4,\n    \"tp2\": 8,\n    \"tp3\": 12,\n    \"tp4\": 27,\n    \"tp5\": 36,\n    \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "49515253",
+    "model_output": "{tp1: 6, tp2: 18, tp3: 27, tp4: 28, tp5: 40, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "71615827",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 10,\n  \"tp3\": 26,\n  \"tp4\": 31,\n  \"tp5\": 37,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "45000726",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 5,\n  \"tp3\": 7,\n  \"tp4\": 14,\n  \"tp5\": 32,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "69987604",
+    "model_output": "{tp1: 10, tp2: 14, tp3: 25, tp4: 36, tp5: 48, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "69038606",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 14,\n  \"tp3\": 22,\n  \"tp4\": 24,\n  \"tp5\": 29,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "73693368",
+    "model_output": "{tp1: 4.0, tp2: 10.0, tp3: 17.0, tp4: 18.0, tp5: 27.0, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "22154654",
+    "model_output": "{\"tp1\": 7, \"tp2\": 9, \"tp3\": 21, \"tp4\": 32, \"tp5\": 33, \"story_arc\": \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "75384273",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 10,\n  \"tp3\": 14,\n  \"tp4\": 27,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "82119186",
+    "model_output": "{tp1: 2.0, tp2: 9.0, tp3: 13.0, tp4: 19.0, tp5: 28.0, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "75390091",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 8,\n  \"tp3\": 13,\n  \"tp4\": 20,\n  \"tp5\": 26,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "92619769",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 10,\n  \"tp3\": 14,\n  \"tp4\": 23,\n  \"tp5\": 33,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "74025363",
+    "model_output": "{tp1: 4, tp2: 12, tp3: 17, tp4: 47, tp5: 71, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "77080663",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 12,\n  \"tp3\": 15,\n  \"tp4\": 20,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "74141436",
+    "model_output": "{tp1: 5, tp2: 7, tp3: 35, tp4: 51, tp5: 71, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "38692246",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 16,\n  \"tp3\": 24,\n  \"tp4\": 41,\n  \"tp5\": 65,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "63336851",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 18,\n  \"tp3\": 20,\n  \"tp4\": 22,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "23320969",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 8,\n  \"tp3\": 15,\n  \"tp4\": 20,\n  \"tp5\": 27,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "730819",
+    "model_output": "{tp1: 5, tp2: 13, tp3: 28, tp4: 31, tp5: 38, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "74819072",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 10,\n  \"tp3\": 16,\n  \"tp4\": 13,\n  \"tp5\": 26,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "41996238",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 9,\n  \"tp3\": 12,\n  \"tp4\": 27,\n  \"tp5\": 37,\n  \"story_arc\": \"Oedipus\"\n}"
+  },
+  {
+    "narrative_id": "96956140",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 6,\n  \"tp3\": 10,\n  \"tp4\": 14,\n  \"tp5\": 30,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "29471905",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 8,\n  \"tp3\": 11,\n  \"tp4\": 16,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "15162214",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 11,\n  \"tp3\": 21,\n  \"tp4\": 18,\n  \"tp5\": 38,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "60713993",
+    "model_output": "{tp1: 3, tp2: 6, tp3: 13, tp4: 18, tp5: 30, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "1422434",
+    "model_output": "{\n  \"tp1\": 14,\n  \"tp2\": 21,\n  \"tp3\": 28,\n  \"tp4\": 31,\n  \"tp5\": 36,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "34775511",
+    "model_output": "{\n    \"tp1\": 2,\n    \"tp2\": 3,\n    \"tp3\": 9,\n    \"tp4\": 15,\n    \"tp5\": 24,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "69360143",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 9,\n  \"tp3\": 14,\n  \"tp4\": 18,\n  \"tp5\": 22,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "43625027",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 10,\n  \"tp4\": 11,\n  \"tp5\": 24,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "40519979",
+    "model_output": "{\n  \"tp1\": 8,\n  \"tp2\": 11,\n  \"tp3\": 14,\n  \"tp4\": 26,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "55956687",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 8,\n  \"tp3\": 13,\n  \"tp4\": 15,\n  \"tp5\": 21,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "442333",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 11,\n  \"tp3\": 20,\n  \"tp4\": 27,\n  \"tp5\": 39,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "41403368",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 10,\n  \"tp3\": 25,\n  \"tp4\": 32,\n  \"tp5\": 54,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "71862304",
+    "model_output": "{\n  \"tp1\": 6,\n  \"tp2\": 11,\n  \"tp3\": 31,\n  \"tp4\": 27,\n  \"tp5\": 44,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "4276475",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 3,\n  \"tp3\": 9,\n  \"tp4\": 19,\n  \"tp5\": 40,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "76927581",
+    "model_output": "{\n  \"tp1\": 9,\n  \"tp2\": 16,\n  \"tp3\": 25,\n  \"tp4\": 31,\n  \"tp5\": 55,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "14855045",
+    "model_output": "{tp1: 3, tp2: 9, tp3: 28, tp4: 56, tp5: 70, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "58241289",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 12,\n  \"tp4\": 10,\n  \"tp5\": 18,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "82199308",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 5,\n  \"tp3\": 10,\n  \"tp4\": 12,\n  \"tp5\": 17,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "68245",
+    "model_output": "{\n    \"tp1\": 1,\n    \"tp2\": 2,\n    \"tp3\": 4,\n    \"tp4\": 12,\n    \"tp5\": 21,\n    \"story_arc\": \"Icarus\"\n}"
+  },
+  {
+    "narrative_id": "60524632",
+    "model_output": "{tp1: 3, tp2: 7, tp3: 18, tp4: 23, tp5: 29, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "4503793",
+    "model_output": "Here is the output in the requested JSON format:\n\n{\n    \"tp1\": 2,\n    \"tp2\": 9,\n    \"tp3\": 14,\n    \"tp4\": 15,\n    \"tp5\": 20,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "50480732",
+    "model_output": "{tp1: 19, tp2: 35, tp3: 42, tp4: 50, tp5: 59, story_arc: \"Icarus\"}"
+  },
+  {
+    "narrative_id": "52192287",
+    "model_output": "{\n    \"tp1\": 3,\n    \"tp2\": 24,\n    \"tp3\": 28,\n    \"tp4\": 35,\n    \"tp5\": 44,\n    \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "57327495",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 10,\n  \"tp3\": 14,\n  \"tp4\": 19,\n  \"tp5\": 22,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "18068995",
+    "model_output": "{tp1: 5, tp2: 11, tp3: 17, tp4: 21, tp5: 23, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "23487440",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 3,\n  \"tp3\": 8,\n  \"tp4\": 22,\n  \"tp5\": 32,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "59400313",
+    "model_output": "{\n  \"tp1\": 1,\n  \"tp2\": 14,\n  \"tp3\": 20,\n  \"tp4\": 19,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "21224311",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 7,\n  \"tp3\": 11,\n  \"tp4\": 19,\n  \"tp5\": 27,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "98610027",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 10,\n  \"tp3\": 19,\n  \"tp4\": 29,\n  \"tp5\": 42,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "99899271",
+    "model_output": "{\n  \"tp1\": 5,\n  \"tp2\": 11,\n  \"tp3\": 22,\n  \"tp4\": 28,\n  \"tp5\": 39,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "44537879",
+    "model_output": "{\n  \"tp1\": 3,\n  \"tp2\": 7,\n  \"tp3\": 14,\n  \"tp4\": 15,\n  \"tp5\": 22,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "2436406",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 14,\n  \"tp3\": 28,\n  \"tp4\": 38,\n  \"tp5\": 46,\n  \"story_arc\": \"Double Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "49012634",
+    "model_output": "{tp1: 4, tp2: 6, tp3: 20, tp4: 26, tp5: 30, story_arc: \"Cinderella\"}"
+  },
+  {
+    "narrative_id": "2078348",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 13,\n  \"tp3\": 17,\n  \"tp4\": 23,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "4064841",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 4,\n  \"tp3\": 9,\n  \"tp4\": 15,\n  \"tp5\": 25,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "19892645",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 11,\n  \"tp3\": 17,\n  \"tp4\": 19,\n  \"tp5\": 22,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "52563378",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 16,\n  \"tp3\": 24,\n  \"tp4\": 29,\n  \"tp5\": 34,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "12737013",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 6,\n  \"tp3\": 11,\n  \"tp4\": 14,\n  \"tp5\": 21,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "51944553",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 13,\n  \"tp3\": 19,\n  \"tp4\": 25,\n  \"tp5\": 37,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "19348137",
+    "model_output": "{\n  \"tp1\": 4,\n  \"tp2\": 6,\n  \"tp3\": 12,\n  \"tp4\": 17,\n  \"tp5\": 30,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  },
+  {
+    "narrative_id": "52371",
+    "model_output": "{\n  \"tp1\": 7,\n  \"tp2\": 14,\n  \"tp3\": 23,\n  \"tp4\": 32,\n  \"tp5\": 40,\n  \"story_arc\": \"Cinderella\"\n}"
+  },
+  {
+    "narrative_id": "50214300",
+    "model_output": "{tp1: 8, tp2: 13, tp3: 23, tp4: 18, tp5: 32, story_arc: \"Man in a Hole\"}"
+  },
+  {
+    "narrative_id": "97902743",
+    "model_output": "{\n  \"tp1\": 2,\n  \"tp2\": 12,\n  \"tp3\": 17,\n  \"tp4\": 22,\n  \"tp5\": 24,\n  \"story_arc\": \"Man in a Hole\"\n}"
+  }
+]

@@ -13,15 +13,15 @@ from langchain.prompts import PromptTemplate
 CONFIG = {
     # File paths
     "COMBINED_NARRATIVES_FILE": "datasets/ground_truth.json",
-    "OUTPUT_FILE_TP": "data_release/step3/narratives_tp_reasoning.json",
-    "OUTPUT_FILE_ARC": "data_release/step3/narratives_arc_reasoning.json",
-    "OUTPUT_FILE_ARC_TP": "data_release/step3/narratives_arc_tp_reasoning.json",
+    "OUTPUT_FILE_TP": "step2_model/llama3.1-405b-instruct-fp8/narratives_tp_reasoning.json",
+    "OUTPUT_FILE_ARC": "step2_model/llama3.1-405b-instruct-fp8/narratives_arc_reasoning.json",
+    "OUTPUT_FILE_ARC_TP": "step2_model/llama3.1-405b-instruct-fp8/narratives_arc_tp_reasoning.json",
     "ERROR_LOG_FILE": "local/logs/error_prompts.log",
 
     # LLM Configuration
-    "LLM_API_KEY": "ollama",      # Replace with actual API key if needed
-    "LLM_MODEL": "llama3.3",      # Replace with your actual model name
-    "LLM_BASE_URL": "http://localhost:11434/v1",  # Replace with your actual base URL
+    "LLM_API_KEY": "secret_narratives_652fe4188cfa48a89d8e941099004552.hs4awlXceqOliqZFCWKMV38luOnduxXr",      # Replace with actual API key if needed
+    "LLM_MODEL": "llama3.1-405b-instruct-fp8",      # Replace with your actual model name
+    "LLM_BASE_URL": "https://api.lambdalabs.com/v1",  # Replace with your actual base URL
 
     # LLM Generation Parameters
     "TEMPERATURE": 0.7,
@@ -78,7 +78,7 @@ PROMPT_TEMPLATES = {
     -  **Riches to Rags:** Protagonist starts in a high-status position but ends in a significantly lower state. The protagonist's condition worsens from the first turning point to the last turning point. Example, 10 9 8 6 0.
     -  **Man in a Hole:** Protagonist falls into a dilemma and finds a way out, ending better than at the beginning. The protagonist's condition improves from the first turning point to the last turning point. Example, 6 2 1 4 10.
     -  **Icarus:** Protagonist rises to success but then faces a drastic downfall. The protagonist's condition starts low at the first turning point, rises to its peak in the third turning point, and then falls to a low point at the last turning point. Example, 2 4 9 5 1.
-    -  **Double Man in a Hole:** Protagonist faces two cycles of dilemma and recovery. Example, 6 2 1 4 10.
+    -  **Double Man in a Hole:** Protagonist faces two cycles of dilemma and recovery. Example, 6 1 5 1 10.
     -  **Cinderella:** Protagonist rises, faces a setback, and ultimately achieves a higher state. Example, 1 7 4 1 10.
     -  **Oedipus:** Protagonist starts high, falls, recovers, and then faces another significant downfall. Example, 10 4 7 9 1.
 
@@ -112,7 +112,7 @@ PROMPT_TEMPLATES = {
     -  **Riches to Rags:** Protagonist starts in a high-status position but ends in a significantly lower state. The protagonist's condition worsens from the first turning point to the last turning point. Example, 10 9 8 6 0.
     -  **Man in a Hole:** Protagonist falls into a dilemma and finds a way out, ending better than at the beginning. The protagonist's condition improves from the first turning point to the last turning point. Example, 6 2 1 4 10.
     -  **Icarus:** Protagonist rises to success but then faces a drastic downfall. The protagonist's condition starts low at the first turning point, rises to its peak in the third turning point, and then falls to a low point at the last turning point. Example, 2 4 9 5 1.
-    -  **Double Man in a Hole:** Protagonist faces two cycles of dilemma and recovery. Example, 6 2 1 4 10.
+    -  **Double Man in a Hole:** Protagonist faces two cycles of dilemma and recovery. Example, 6 1 5 1 10.
     -  **Cinderella:** Protagonist rises, faces a setback, and ultimately achieves a higher state. Example, 1 7 4 1 10.
     -  **Oedipus:** Protagonist starts high, falls, recovers, and then faces another significant downfall. Example, 10 4 7 9 1.
 
