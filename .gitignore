@@ -3,3 +3,8 @@ outputs/
 70b-4bit-lora-r128-epoch1/
 logs/
 local/
+LLaMA-Factory/
+llama-factory/
+unsloth_env
+wandb
+llama3.3-70b/
