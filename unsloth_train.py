@@ -24,7 +24,7 @@ MODEL_NAME = "unsloth/Llama-3.3-70B-Instruct"
 TEST_DATASET_PATH = "./datasets/test.json"
 BATCH_SIZE = 2
 GRAD_ACCUM = 4
-LORA_DIM = 128
+LORA_DIM = 32
 
 model, tokenizer = FastLanguageModel.from_pretrained(
     model_name = MODEL_NAME,
@@ -40,7 +40,7 @@ model = FastLanguageModel.get_peft_model(
     r = LORA_DIM, # Choose any number > 0 ! Suggested 8, 16, 32, 64, 128
     target_modules = ["q_proj", "k_proj", "v_proj", "o_proj",
                       "gate_proj", "up_proj", "down_proj",],
-    lora_alpha = 32,
+    lora_alpha = 16,
     lora_dropout = 0, # Supports any, but = 0 is optimized
     bias = "none",    # Supports any, but = "none" is optimized
     # [NEW] "unsloth" uses 30% less VRAM, fits 2x larger batch sizes!
