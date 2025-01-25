@@ -95,7 +95,7 @@ def load_model(lora_name: Optional[str] = None):
     max_seq_length = 8192   # We auto support RoPE Scaling internally in unsloth
     dtype = torch.bfloat16  # Use bfloat16 if GPU is Ampere+
     load_in_4bit = True     # Use 4-bit quantization to reduce memory usage
-    cache_dir = "./model_cache-2"
+    cache_dir = "./local/model_cache"
 
     if lora_name:
         model, tokenizer = FastLanguageModel.from_pretrained(
@@ -161,7 +161,8 @@ def main():
     
     # 2) Set predictions path to same directory as val_path
     val_dir = os.path.dirname(args.val_path)
-    predictions_path = os.path.join(val_dir, "val_predictions.json")
+    predictions_filename = "val_predictions_lora.json" if args.lora_name else "val_predictions.json"
+    predictions_path = os.path.join(val_dir, predictions_filename)
     existing_predictions = read_existing_predictions(predictions_path)
     
     if existing_predictions is None:
