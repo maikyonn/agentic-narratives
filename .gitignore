@@ -7,3 +7,5 @@ LLaMA-Factory/
 llama-factory/
 unsloth_env
 wandb
+70b-4bit-lora-r128/
+step2_model/llama3.3-70b/datasets/arc-tp/70b-4bit-lora-r128/

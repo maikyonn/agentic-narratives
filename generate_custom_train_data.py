@@ -9,7 +9,7 @@ def create_numbered_story(synopsis_list):
     """
     return "\n".join(f"{i+1}) {s}" for i, s in enumerate(synopsis_list))
 
-def build_train_data(mode, synopsis, turning_points=None, story_arc=None, reasoning_text=None):
+def build_train_data(mode, synopsis, turning_points=None, story_arc=None, reasoning_text=None, narrative_id=None):
     """Builds the training data in Alpaca format based on the mode and input data."""
     numbered_story = create_numbered_story(synopsis)
     
@@ -26,17 +26,17 @@ def build_train_data(mode, synopsis, turning_points=None, story_arc=None, reason
         - **Point of No Return** – Event that pushes the main character(s) to fully commit to their goal.
         - **Major Setback** – Event where things fall apart temporarily or permanently.
         - **Climax** – Final event/resolution of the main story (the "biggest spoiler")."""
-        input_text = f"""Story, broken down into numbered sentences:
-            {numbered_story}
+        input_text = f"""### INPUT 
+        Story, broken down into numbered sentences:
+        {numbered_story}
 
         Please use the provided definitions and the sentence indices to produce an explanation **why** each sentence index corresponds to the turning point category. End with a concise summary that reiterates the turning points in order.
-
+        At the end of your reasoning, output the turning points in the format of {{tp1: ##.#, tp2: ##.#, tp3: ##.#, tp4: ##.#, tp5: ##.#}}
         ### RESPONSE
-        {reasoning_text}
         """
     elif mode == "arc":
-        instruction = "Analyze the story and classify it into one of the following story arc types based on the protagonist's condition at each major event. Explain your reasoning step by step."
-        input_text = f"""Story, broken down into numbered sentences:
+        instruction = "### INSTRUCTIONS\nAnalyze the story and classify it into one of the following story arc types based on the protagonist's condition at each major event. Explain your reasoning step by step."
+        input_text = f"""### INPUT\n Story, broken down into numbered sentences:
 {numbered_story}
 
 Story Arc Types:
@@ -46,11 +46,18 @@ Story Arc Types:
 - Icarus: Protagonist rises then falls dramatically (e.g., 2→4→9→5→1)
 - Double Man in a Hole: Two cycles of fall and recovery (e.g., 6→2→7→4→10)
 - Cinderella: Rise, setback, ultimate triumph (e.g., 1→7→4→1→10)
-- Oedipus: Start high, fall, recover, final fall (e.g., 10→4→7→9→1)"""
+- Oedipus: Start high, fall, recover, final fall (e.g., 10→4→7→9→1)
+
+    
+    At the end of your reasoning, simply state the determined story arc.
+    ### RESPONSE
+"""
+
+
 
     elif mode == "arc-tp":
-        instruction = "Analyze the story and classify it into one of the story arc types based on the protagonist's condition at each turning point. Explain your reasoning step by step."
-        input_text = f"""Story, broken down into numbered sentences:
+        instruction = "### INSTRUCTIONS\nAnalyze the story and classify it into one of the story arc types based on the protagonist's condition at each turning point. Explain your reasoning step by step."
+        input_text = f"""### INPUT \nStory, broken down into numbered sentences:
 {numbered_story}
 
 Story Arc Types:
@@ -67,12 +74,19 @@ Ground Truth Turning Points:
 - Change of Plans (tp2): {turning_points.get('tp2', 'N/A')} - Event where the main goal of the story is defined, starting the main action.
 - Point of No Return (tp3): {turning_points.get('tp3', 'N/A')} - Event that pushes the main character(s) to fully commit to their goal.
 - Major Setback (tp4): {turning_points.get('tp4', 'N/A')} - Event where things fall apart temporarily or permanently.
-- Climax (tp5): {turning_points.get('tp5', 'N/A')} - Final event/resolution of the main story (the "biggest spoiler")."""
+- Climax (tp5): {turning_points.get('tp5', 'N/A')} - Final event/resolution of the main story (the "biggest spoiler").
+
+    At the end of your reasoning, simply state the determined story arc.
+    ### RESPONSE
+    """
 
     return {
         "instruction": instruction,
         "input": input_text,
-        "output": reasoning_text
+        "output": reasoning_text,
+        "complete-text": instruction + "\n\n" + input_text + reasoning_text,
+        "narrative_id": narrative_id,
+        "query": instruction + "\n\n" + input_text
     }
 
 def transform_reasoning_to_training_data(input_file, output_dir, mode):
@@ -110,7 +124,8 @@ def transform_reasoning_to_training_data(input_file, output_dir, mode):
             synopsis=narrative.get('synopsis', []),
             turning_points=narrative.get('turning_points', {}),
             story_arc=narrative.get('arc_label', 'N/A'),
-            reasoning_text=reasoning_text
+            reasoning_text=reasoning_text,
+            narrative_id=narrative.get('narrative_id')
         )
 
         alpaca_data.append(alpaca_example)

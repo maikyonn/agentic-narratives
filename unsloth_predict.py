@@ -58,34 +58,22 @@ def parse_args():
 def load_json_data(json_path: str) -> List[Dict[str, Any]]:
     """
     Load narrative data from a JSON file.
+    This function wraps multiple JSON objects into a list if they aren't already.
     """
     with open(json_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+        content = f.read().strip()
+        try:
+            data = json.loads(content)
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+            data = []
     return data
-
-alpaca_prompt = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
-
-### Instruction:
-{}
-
-### Synopsis:
-{}
-
-### Response:
-{}
-
-Final Turning Points: {}"""
 
 def formatting_prompts_func(example: Dict[str, Any], EOS_TOKEN: str) -> str:
     """
-    Format prompts by combining instruction and input, leaving response blank for generation.
+    Format prompts by appending EOS token to complete-text.
     """
-    text = (
-        f"{example['instruction']}\n\n"
-        f"### Input:\n{example['input']}\n" 
-        f"### Response:\n"
-    ) + EOS_TOKEN
-    return text
+    return example['query']
 
 def load_model(lora_name: Optional[str] = None):
     """
@@ -121,6 +109,7 @@ def generate_response(model, tokenizer, prompt: str) -> str:
     """
     Generate a response from the model given a prompt.
     """
+    print(prompt)
     inputs = tokenizer([prompt], return_tensors="pt").to(model.device)
     generated_tokens = model.generate(
         **inputs,
@@ -131,6 +120,7 @@ def generate_response(model, tokenizer, prompt: str) -> str:
     # Extract only the response part after "### Response:"
     if "### Response:" in response:
         response = response.split("### Response:")[1].strip()
+    print(response)
     return response
 
 def read_existing_predictions(predictions_path: str) -> List[Dict[str, Any]]:
@@ -166,12 +156,7 @@ def main():
     existing_predictions = read_existing_predictions(predictions_path)
     
     if existing_predictions is None:
-        predictions = []
-        for item in val_data:
-            pred_item = item.copy()
-            pred_item['non_lora_response'] = ""
-            pred_item['lora_response'] = ""
-            predictions.append(pred_item)
+        predictions = val_data  # Simply use val_data directly instead of copying and adding fields
     else:
         predictions = existing_predictions
 

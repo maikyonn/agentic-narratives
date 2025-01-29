@@ -20,7 +20,7 @@ CONFIG = {
 
     # LLM Configuration
     "LLM_API_KEY": "secret_narratives_652fe4188cfa48a89d8e941099004552.hs4awlXceqOliqZFCWKMV38luOnduxXr",      # Replace with actual API key if needed
-    "LLM_MODEL": "llama3.1-405b-instruct-fp8",      # Replace with your actual model name
+    "LLM_MODEL": "llama3.3-70b-instruct-fp8",      # Replace with your actual model name
     "LLM_BASE_URL": "https://api.lambdalabs.com/v1",  # Replace with your actual base URL
 
     # LLM Generation Parameters
